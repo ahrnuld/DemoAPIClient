@@ -1,4 +1,4 @@
-# jwtdemo
+# VueJS API demo client
 
 ## Project setup
 ```
