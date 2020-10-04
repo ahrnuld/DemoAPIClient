@@ -2,12 +2,8 @@
 import axios from 'axios'
 
 const instance = axios.create({
-
-baseURL: 'https://localhost:44365/'
-
+    baseURL: 'https://localhost:44365/',
+    headers: { 'Content-Type': 'application/json' },
 });
-
-instance.defaults.headers.common['Authorization'] = ''
-instance.defaults.headers.get['Accepts'] = 'application/json'
 
 export default instance;
